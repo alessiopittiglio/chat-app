@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .joinInnerContainer {
+    width: 20%;
+  }
+  
+  .joinInput {
+    border-radius: 15px;
+    padding: 15px 20px;
+    width: 100%;
+    height: 70%;
+    border: 0px;
+    background-color: #f5f5f5;
+    font-size: 15px;
+  }
+  
+  .heading {
+    font-size: 4em;
+    background: linear-gradient(to right, #2e70ff, #ff5c87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-decoration: none;
+      background: #2979FF;
+      padding: 20px;
+      border-radius: 30px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  .button:hover {background-color: #4d4dff}
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+  
